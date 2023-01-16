@@ -1,0 +1,63 @@
+.autotools
+.project
+.cproject
+.settings/*
+aclocal.m4
+autom4te.cache/*
+
+config.hin
+config.h
+.qmake.stash
+config.log
+config.status
+compile 
+libtool
+Makefile
+src/Makefile
+
+config.guess
+config.h.in
+config.sub
+configure
+depcomp
+install-sh
+missing
+Makefile.in
+ltmain.sh
+*/*/.*
+*/.*
+.lib*
+
+*.user*
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Autosave Files
+*.autosave
