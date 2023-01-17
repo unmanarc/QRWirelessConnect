@@ -201,7 +201,7 @@ void MainWindow::on_actionPrint_triggered()
 
             // Scale the image size to the viewport size.
             //imageSize.scale(rect.size(), Qt::KeepAspectRatio);
-            imageSize.scale( rect.size().width()/factor ,rect.size().height()/factor, Qt::KeepAspectRatio );
+            imageSize.scale( (image.size().width()*2)/factor,(image.size().height()*2)/factor, Qt::KeepAspectRatio );
             // Set the viewport using the initial painter viewport... and the current image size.
             painter.setViewport(rect.x(), rect.y(), imageSize.width(), imageSize.height());
             // Set the window as the rect image...
